@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e496a07-edf5-49c3-8ce8-43b1b32e730c" name="Changes" comment="Start line fix">
+    <list default="true" id="6e496a07-edf5-49c3-8ce8-43b1b32e730c" name="Changes" comment="Array with all turtles with finish positions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants/constants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/TurtleRacer.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/TurtleRacer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,11 +68,20 @@
       <option name="project" value="LOCAL" />
       <updated>1706732868873</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Array with all turtles with finish positions">
+      <option name="closed" value="true" />
+      <created>1706893760518</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706893760518</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start line fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start line fix" />
+    <MESSAGE value="Array with all turtles with finish positions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array with all turtles with finish positions" />
   </component>
 </project>
