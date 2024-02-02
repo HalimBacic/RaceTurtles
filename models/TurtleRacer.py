@@ -8,7 +8,9 @@ class TurtleRacer:
         self.position = 0
         self.turtle = Turtle()
         self.turtle.color(color)
+        self.name = color
         self.turtle.shape("turtle")
+        self.status = False
 
     def start_line(self, param):
         self.turtle.penup()
@@ -17,7 +19,9 @@ class TurtleRacer:
         self.turtle.goto(x, y)
 
     def race(self):
-        while self.position < constants.winx:
+        if self.turtle.xcor() >= constants.winx/2-constants.gap:
+            print(f"Kraj {self.turtle.color()}")
+            self.status = True
+        else:
             self.position += random.randint(0, constants.speed)
             self.turtle.forward(self.position)
-        return self

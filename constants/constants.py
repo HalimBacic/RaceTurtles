@@ -1,4 +1,4 @@
-speed = 10
+speed = 6
 colors = ['red', 'green', 'blue', 'yellow', 'purple', 'orange', 'pink', 'grey']
 gap = 25 #space betwen track and side wall
 winx = 500
